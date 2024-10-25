@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+body,html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color:gainsboro;
+
+}
+.nav-item a:hover{
+    color: white;
+    background-color: red;
+    
+    
+}
+.nav-item a{
+    color:black;
+    background-color: white;
+    padding: 10px;
+    margin: 5px 5px 5px 5px;
+    width: 100px;
+    border-radius: 5px 0 0 5px;
+    text-align: center;
+    
+}
+.card img{
+    display: inline-block
+ } 
+ #timeline{
+    display: inline;
+ }
+
+
+footer{
+    background-color: black;
+    color: white;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+}
+.nav-item span{
+    translate: none;
+    rotate: none;
+    scale: none;
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+#contact{
+    width: 400px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.btn{
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    margin-bottom: 50px;
+}
+
